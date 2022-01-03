@@ -1,33 +1,53 @@
+/*estilo universal de la página*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+/*estilo del cuerpo de la página*/
+
 body {
     color: #ffffff;
     overflow-x: hidden
 }
+
+
+/*estilo del contenedor principal*/
 
 .container-fluid {
     background-color: #1d2243;
     max-width: 100%;
 }
 
+
+/*estilo del contenedor secundario*/
+
 .container {
     max-width: 100%;
 }
+
+
+/*estilo del encabezado*/
 
 header {
     width: 100%;
     height: 100%;
 }
 
+
+/*estilo del carrusel*/
+
 .carousel-img-width {
     background: no-repeat center;
     background-size: cover;
     width: 100%
 }
+
+
+/*estilos de la barra de navegación*/
 
 .navbar {
     width: 100%;
@@ -66,6 +86,9 @@ header {
     z-index: inherit;
 }
 
+
+/*estilo de la seccion quienes somos*/
+
 h1 {
     text-align: center;
     font-family: 'Roboto Slab', serif;
@@ -77,6 +100,9 @@ h1 {
     text-align: center;
     font-size: 25px;
 }
+
+
+/*estilo de la seccion destacados*/
 
 h2 {
     text-align: center;
@@ -96,7 +122,11 @@ h2 {
     width: 330px;
     justify-content: space-between;
     margin-left: 15px;
+    margin-bottom: 25px;
 }
+
+
+/*estilo de la seccion contacto*/
 
 .contacto {
     background-color: #d99713;
@@ -112,6 +142,9 @@ h2 {
 .hola {
     margin-top: 100px;
 }
+
+
+/*estilo del pie de página*/
 
 footer {
     background-color: #ffffff;
