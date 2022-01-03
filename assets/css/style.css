@@ -38,11 +38,11 @@ header {
 }
 
 .nav-link {
-    color: rgb(240, 93, 35);
+    color: mediumspringgreen;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
     font-size: 23px;
-    text-shadow: 0.5px 0.5px 0.5px black;
+    text-shadow: 1.5px 1.5px 1.5px black;
 }
 
 .icono-logo {
@@ -95,6 +95,7 @@ h2 {
     color: black;
     width: 330px;
     justify-content: space-between;
+    margin-left: 15px;
 }
 
 .contacto {
