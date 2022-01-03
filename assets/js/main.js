@@ -7,5 +7,9 @@ $(function() {
     })
     $('body').on('dblclick', 'h1', function() { //esto es para cambiarle el color a el titulo haciendo doble click en el
         $(this).css("color", "green");
+
+    });
+    $('body').on('dblclick', 'h3', function() { //esto es para cambiarle el color a el titulo haciendo doble click en el
+        $(this).css("color", "orange");
     });
 });
